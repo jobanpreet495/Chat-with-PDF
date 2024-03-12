@@ -9,3 +9,7 @@ Embeddings are created of those text chunks and stored in a Knowledge base which
 FAISS : facebook AI similarity search is a library used for similarity search.
 When user ask a question , it firstly converted to embeddings and then sematic search is applied to extract relevant chucnk from the knowledge base .
 This chunk and question is then passed to the llm (Which in our case is OpenAI gpt model) to get relevant answer.
+
+
+#   Demo
+https://github.com/jobanpreet495/Chat-with-PDF/blob/main/pdfchat.webm
